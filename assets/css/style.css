@@ -3,3 +3,29 @@
 /*
 "Rubik", sans-serif;
 */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: "Rubik", sans-serif;
+}
+
+body {
+    margin-inline: auto;
+    background-color: #E0E0E0;
+    min-height: 100vh;
+    height: auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+.root {
+    background-color: #fff;
+    min-height: 100vh;
+    height: auto;
+}
