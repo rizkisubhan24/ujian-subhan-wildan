@@ -482,6 +482,25 @@
   .container-logo {
     display: none;
   }
+.main-nav-desktop{
+  .nav-top-desktop{
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+}
+  .container-logo-banner{
+    .logo-page{
+      margin-right: 100px;
+      margin-left: 100px;
+    }
+  }
+
+.container-menu-desktop{
+  .container-main-desktop{
+    margin-left: 80px;
+    margin-right: 80px;
+  }
+}
   .container-image-banner {
     height: 390px;
     .konten-image {
@@ -504,7 +523,6 @@
   }
 
   .konten-image {
-    position: relative;
     height: 390px;
     .image {
       width: 85%;
@@ -514,7 +532,6 @@
         height: 300px;
       }
       img {
-        position: absolute;
         width: 85%;
         height: 300px;
         margin-left: 30px;
@@ -611,7 +628,6 @@
       top: 45%;
       left: 20px;
       .icon-card {
-        display: flex;
         align-items: center;
         gap: 5px;
         svg {
@@ -635,11 +651,12 @@
 
   //auto mobile
   .container-automobile-news {
+    margin-left: 0px;
+    margin-right: 0px;
     .conten-automobile-news {
       margin-left: 100px;
       margin-right: 100px;
       gap: 30px;
-      grid-template-areas: "card" "video" "form";
     }
   }
 
@@ -695,4 +712,218 @@
   }
 }
 
-//responsive full HD
+@media screen and(min-width:1920px) {
+  .container-main-nav {
+    display: none;
+  }
+  .container-logo {
+    display: none;
+  }
+  .container-image-banner {
+    height: 390px;
+    .konten-image {
+      display: flex;
+      gap: 50px;
+      margin-right: 100px;
+      margin-left: 100px;
+      .text-button-banner {
+        .konten-banner {
+          margin-top: 0;
+        }
+        .tittle-banner {
+          line-height: 1.5;
+        }
+        .paragraf-banner {
+          line-height: 1.5;
+        }
+      }
+    }
+  }
+
+  .konten-image {
+    height: 390px;
+    .image {
+      width: 85%;
+      height: 330px;
+      .yellow {
+        width: 85%;
+        height: 300px;
+      }
+      img {
+        width: 85%;
+        height: 300px;
+        margin-left: 30px;
+        margin-top: 30px;
+        margin-right: 15px;
+      }
+    }
+  }
+
+  .tittle-banner {
+    margin-top: 20px;
+    text-align: left;
+    font-size: 16px;
+  }
+
+  .container-post-banner {
+    .contain-post {
+      margin-left: 100px;
+      margin-right: 100px;
+    }
+  }
+
+  .konten-promosi {
+    margin-left: 100px;
+    margin-right: 100px;
+    .latest-news {
+      .konten-card-latest {
+        .latest-card-news{
+          margin-bottom: 10px;
+        }
+        .latest-card-news-a{
+          margin-bottom: 10px;
+        }
+        .latest-card-news-b{
+          margin-bottom: 10px;
+        }
+        .latest-card-news-c{
+          margin-bottom: 10px;
+        }
+      }
+    }
+
+    .container-what-news {
+      .what-news {
+        padding-top: 0px;
+        margin: 0px;
+      }
+    }
+
+    .container-join-with-us {
+      padding: 0px;
+      .join-with-us {
+        margin: 0px;
+      }
+    }
+  }
+
+  .container-koten-fashion {
+    .image-konten-fashion {
+      margin-right: 100px;
+      margin-left: 100px;
+    }
+  }
+
+  .container-card-images {
+    .conten-card-images {
+     margin-left: 100px;
+     margin-right: 100px;
+    }
+  }
+
+  .container-play-video {
+    margin-bottom: 250px;
+    .conten-video {
+      gap: 50px;
+      margin-left: 100px;
+      margin-right: 100px;
+    }
+  }
+  .contain-video-banner {
+    .btn-card-video {
+      padding: 5px 20px;
+      top: 40%;
+      left: 20px;
+    }
+    .icon-video {
+      top: 25%;
+      left: 50%;
+      padding: 10px 15px;
+      opacity: 0.8;
+    }
+
+    .icon-card-video {
+      top: 45%;
+      left: 20px;
+      .icon-card {
+        align-items: center;
+        gap: 5px;
+        svg {
+          width: 18px;
+        }
+      }
+    }
+
+    .card-trending-video {
+      .bannerr-video {
+        width: 100%;
+        height: 460px;
+        background-size: contain;
+        background-repeat: no-repeat;
+      }
+    }
+  }
+  .banner-play-video {
+    left: 50px;
+  }
+
+  //auto mobile
+  .container-automobile-news {
+    .conten-automobile-news {
+      margin-left: 100px;
+      margin-right: 100px;
+      gap: 30px;
+    }
+  }
+
+  .contain-automobile-banner {
+    .btn-card-video {
+      padding: 5px 20px;
+      top: 45%;
+      left: 20px;
+    }
+    .icon-video {
+      top: 30%;
+      left: 50%;
+    }
+
+    .icon-card-video {
+      top: 50%;
+      left: 20px;
+    }
+
+    .paragraf-video {
+      p {
+        font-size: 18px;
+        font-weight: 500;
+      }
+    }
+
+    .card-trending-video {
+      overflow: hidden;
+      width: 100%;
+      .bannerr-video {
+        width: 100%;
+        height: 360px;
+        background-size: cover;
+        background-repeat: no-repeat;
+      }
+    }
+  }
+
+  .form-automobile-news{
+    height: 380px;
+  }
+
+  .conten-new-trending{
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+
+  .container-footer {
+    .container-about {
+      margin-left: 100px;
+      margin-right: 100px;
+    }
+  }
+}

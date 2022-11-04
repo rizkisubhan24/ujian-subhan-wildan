@@ -1,5 +1,3 @@
-
-
 // for nav desktop//
 .main-nav-desktop {
   background-color: #002e45ef;
@@ -8,21 +6,21 @@
     justify-content: space-between;
     margin-left: 50px;
     margin-right: 50px;
-  
+
     .nav-link-desktop {
       list-style: none;
       display: flex;
       align-items: center;
       justify-content: center;
       gap: 12px;
-  
+
       a {
         color: white;
         text-decoration: none;
         font-size: 18px;
       }
     }
-  
+
     .container-right-desktop {
       display: flex;
       align-items: center;
@@ -39,7 +37,7 @@
           }
         }
       }
-  
+
       .konten-sosmed-desktop {
         display: flex;
         padding-top: 20px;
@@ -97,7 +95,6 @@
   }
 }
 
-
 .container-logo-banner {
   background-color: #002e45;
 }
@@ -120,7 +117,7 @@
 .container-menu-desktop {
   background-color: #277bc0;
   position: sticky;
-  top:0;
+  top: 0;
   z-index: 2;
 }
 .container-main-desktop {
@@ -157,18 +154,29 @@
 .contain-menu-search {
   display: flex;
   align-items: center;
-  color: white;
+  // color: white;
   .search {
     display: flex;
     background-color: rgb(0, 119, 255);
     padding: 15px 50px;
-    gap: 50px;
+    gap: 70px;
+    color: white;
+    .input-search{
+      input{
+        background-color: #277bc0;
+        height: 18px;
+        color:white;
+        font-weight: 500;
+        font-size: 12px;
+        border-style: none;
+        outline: none;
+      }
+    }
     a {
       color: white;
     }
   }
 }
-
 // end nav desktop
 
 .container-main-nav {
@@ -191,7 +199,6 @@
     }
   }
 }
-
 .nav-sosmed {
   .konten-sosmed {
     display: flex;
@@ -286,7 +293,6 @@
   margin-left: 15px;
   margin-right: 15px;
   .image {
-    width: 100%;
     height: 200px;
     .yellow {
       background-color: orange;
@@ -400,7 +406,7 @@
     .post-a {
       position: relative;
       background-image: url("/assets/img/post/1.png ");
-      width: 100%;
+      // width: 100%;
       height: 270px;
       background-repeat: no-repeat;
     }
@@ -411,7 +417,7 @@
     overflow: hidden;
     .post-a {
       position: relative;
-      width: 100%;
+      // width: 100%;
       transition: 1.2s ease;
     }
     .post-a:hover {
@@ -463,7 +469,7 @@
   .post-b {
     position: relative;
     background-image: url("/assets/img/post/2.png ");
-    width: 100%;
+    // width: 100%;
     height: 270px;
     background-repeat: no-repeat;
   }
@@ -491,7 +497,7 @@
   .post-c {
     position: relative;
     background-image: url("/assets/img/post/3.png ");
-    width: 100%;
+    // width: 100%;
     height: 270px;
     background-repeat: no-repeat;
   }
@@ -519,7 +525,7 @@
   .post-d {
     position: relative;
     background-image: url("/assets/img/post/4.png ");
-    width: 100%;
+    // width: 100%;
     height: 270px;
     background-repeat: no-repeat;
   }
@@ -586,7 +592,6 @@
     overflow: hidden;
     .card-trending-news {
       position: relative;
-      width: 100%;
       transition: 1.2s ease;
     }
     .card-trending-news:hover {
@@ -606,11 +611,11 @@
   .contain-card-trending-b {
     position: relative;
     overflow: hidden;
+    width: 100%;
     height: 155px;
     margin-top: 30px;
     .card-trending-news-b {
       position: relative;
-      width: 100%;
       transition: 1.2s ease;
     }
     .card-trending-news-b:hover {
@@ -635,7 +640,6 @@
   height: 155px;
   .card-trending-news-c {
     position: relative;
-    width: 100%;
     transition: 1.2s ease;
   }
   .card-trending-news-c:hover {
@@ -1034,7 +1038,7 @@
 
   .image-card-fashion-a {
     position: relative;
-    width: 100%;
+    // width: 100%;
     transition: 1.2s ease;
   }
   .image-card-fashion-a:hover {
@@ -1095,7 +1099,7 @@
 
     .image-card-fashion-b {
       position: relative;
-      width: 100%;
+      // width: 100%;
       transition: 1.2s ease;
     }
     .image-card-fashion-b:hover {
@@ -1112,7 +1116,7 @@
 
     .image-card-fashion-c {
       position: relative;
-      width: 100%;
+      // width: 100%;
       transition: 1.2s ease;
     }
     .image-card-fashion-c:hover {
@@ -1128,7 +1132,7 @@
     }
     .image-card-fashion-d {
       position: relative;
-      width: 100%;
+      // width: 100%;
       transition: 1.2s ease;
     }
     .image-card-fashion-d:hover {
@@ -1305,7 +1309,7 @@
 
 .contain-card-trending-news {
   height: 250px;
-  width: 100%;
+  // width: 100%;
   position: relative;
   overflow: hidden;
   margin-bottom: 30px;
@@ -1342,12 +1346,12 @@
     background-image: url("/assets/img/post/15.png");
     background-repeat: no-repeat;
     height: 250px;
-    width: 100%;
+    // width: 100%;
   }
 
   .card-image {
     position: relative;
-    width: 100%;
+    // width: 100%;
     transition: 1.2s ease;
   }
   .card-image:hover {
@@ -1359,7 +1363,7 @@
 
 .contain-card-trending-news-b {
   height: 250px;
-  width: 100%;
+  // width: 100%;
   position: relative;
   overflow: hidden;
   margin-bottom: 30px;
@@ -1395,13 +1399,13 @@
     position: relative;
     background-image: url("/assets/img/post/16.png");
     height: 250px;
-    width: 100%;
+    // width: 100%;
     background-repeat: no-repeat;
   }
 
   .card-image {
     position: relative;
-    width: 100%;
+    // width: 100%;
     transition: 1.2s ease;
   }
   .card-image:hover {
@@ -1413,7 +1417,7 @@
 
 .contain-card-trending-news-c {
   height: 250px;
-  width: 100%;
+  // width: 100%;
   position: relative;
   overflow: hidden;
   margin-bottom: 30px;
@@ -1449,7 +1453,7 @@
     position: relative;
     background-image: url("/assets/img/post/17.png");
     height: 250px;
-    width: 100%;
+    // width: 100%;
     background-repeat: no-repeat;
   }
 
@@ -1467,7 +1471,7 @@
 
 .contain-card-trending-news-d {
   height: 250px;
-  width: 100%;
+  // width: 100%;
   position: relative;
   overflow: hidden;
   margin-bottom: 30px;
@@ -1503,13 +1507,13 @@
     position: relative;
     background-image: url("/assets/img/post/18.png");
     height: 250px;
-    width: 100%;
+    // width: 100%;
     background-repeat: no-repeat;
   }
 
   .card-image {
     position: relative;
-    width: 100%;
+    // width: 100%;
     transition: 1.2s ease;
   }
   .card-image:hover {
@@ -1521,7 +1525,7 @@
 
 .contain-card-trending-news-e {
   height: 250px;
-  width: 100%;
+  // width: 100%;
   position: relative;
   overflow: hidden;
   margin-bottom: 30px;
@@ -1557,13 +1561,13 @@
     position: relative;
     background-image: url("/assets/img/post/19.png");
     height: 250px;
-    width: 100%;
+    // width: 100%;
     background-repeat: no-repeat;
   }
 
   .card-image {
     position: relative;
-    width: 100%;
+    // width: 100%;
     transition: 1.2s ease;
   }
   .card-image:hover {
@@ -1575,7 +1579,7 @@
 
 .contain-card-trending-news-f {
   height: 250px;
-  width: 100%;
+  // width: 100%;
   position: relative;
   overflow: hidden;
   margin-bottom: 30px;
@@ -1611,13 +1615,13 @@
     position: relative;
     background-image: url("/assets/img/post/20.png");
     height: 250px;
-    width: 100%;
+    // width: 100%;
     background-repeat: no-repeat;
   }
 
   .card-image {
     position: relative;
-    width: 100%;
+    // width: 100%;
     transition: 1.2s ease;
   }
   .card-image:hover {
@@ -1665,13 +1669,13 @@
     position: relative;
     background-image: url("/assets/img/post/21.png");
     height: 250px;
-    width: 100%;
+    // width: 100%;
     background-repeat: no-repeat;
   }
 
   .card-image {
     position: relative;
-    width: 100%;
+    // width: 100%;
     transition: 1.2s ease;
   }
   .card-image:hover {
@@ -1683,7 +1687,7 @@
 
 .contain-card-trending-news-h {
   height: 250px;
-  width: 100%;
+  // width: 100%;
   position: relative;
   overflow: hidden;
   .btn-card-news {
@@ -1718,13 +1722,13 @@
     position: relative;
     background-image: url("/assets/img/post/22.png");
     height: 250px;
-    width: 100%;
+    // width: 100%;
     background-repeat: no-repeat;
   }
 
   .card-image {
     position: relative;
-    width: 100%;
+    // width: 100%;
     transition: 1.2s ease;
   }
   .card-image:hover {
@@ -1809,8 +1813,6 @@
 
   .card-trending-video {
     overflow: hidden;
-    width: 100%;
-    height: 100%;
     .bannerr-video {
       background-image: url("/assets/img/post/23.png");
       width: 100%;
@@ -1931,11 +1933,11 @@
 
 .banner-play-video {
   position: absolute;
-  width: 100%;
+  width: 90%;
   top: 94%;
   z-index: 1;
   img {
-    width: 90%;
+    width: 100%;
     position: absolute;
     left: 15px;
   }
@@ -1943,7 +1945,7 @@
 
 //automobile
 .container-automobile-news {
-  // padding-top: 50px;
+  padding-top: 50px;
   padding-bottom: 100px;
   margin-left: 15px;
   margin-right: 15px;
@@ -2559,4 +2561,3 @@
     }
   }
 }
-
