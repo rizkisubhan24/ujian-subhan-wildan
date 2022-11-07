@@ -490,7 +490,7 @@
 
 .contain-post .container-card-post .post-a {
   position: relative;
-  background-image: url("/assets/img/post/1.png ");
+  background-image: url("/assets/img/post/1.webp ");
   height: 270px;
   background-repeat: no-repeat;
 }
@@ -565,7 +565,7 @@
 
 .container-card-post .post-b {
   position: relative;
-  background-image: url("/assets/img/post/2.png ");
+  background-image: url("/assets/img/post/2.webp ");
   height: 270px;
   background-repeat: no-repeat;
 }
@@ -598,7 +598,7 @@
 
 .container-card-post .post-c {
   position: relative;
-  background-image: url("/assets/img/post/3.png ");
+  background-image: url("/assets/img/post/3.webp ");
   height: 270px;
   background-repeat: no-repeat;
 }
@@ -631,7 +631,7 @@
 
 .container-card-post .post-d {
   position: relative;
-  background-image: url("/assets/img/post/4.png ");
+  background-image: url("/assets/img/post/4.webp ");
   height: 270px;
   background-repeat: no-repeat;
 }
@@ -704,7 +704,7 @@
 
 .container-card-news .card-trending-news {
   position: relative;
-  background-image: url("/assets/img/post/5.png ");
+  background-image: url("/assets/img/post/5.webp ");
   width: 100%;
   height: 155px;
   background-repeat: no-repeat;
@@ -730,7 +730,7 @@
 
 .container-card-news .card-trending-news-b {
   position: relative;
-  background-image: url("/assets/img/post/6.png ");
+  background-image: url("/assets/img/post/5.webp ");
   width: 100%;
   height: 155px;
   background-repeat: no-repeat;
@@ -759,7 +759,7 @@
 
 .container-card-news .card-trending-news-c {
   position: relative;
-  background-image: url("/assets/img/post/7.png ");
+  background-image: url("/assets/img/post/5.webp ");
   width: 100%;
   height: 155px;
   background-repeat: no-repeat;
@@ -1232,7 +1232,7 @@
 
 .container-koten-fashion .image-card-fashion-a {
   overflow: hidden;
-  background-image: url(/assets/img/post/9.png);
+  background-image: url(/assets/img/post/9.webp);
   height: 630px;
   background-repeat: no-repeat;
 }
@@ -1329,7 +1329,7 @@
 }
 
 .container-koten-fashion .image-konten-fashion .image-card-fashion-b {
-  background-image: url(/assets/img/post/10.png);
+  background-image: url(/assets/img/post/10.webp);
   height: 220px;
   background-repeat: no-repeat;
 }
@@ -1373,7 +1373,7 @@
 }
 
 .container-koten-fashion .image-konten-fashion .image-card-fashion-c {
-  background-image: url(/assets/img/post/11.png);
+  background-image: url(/assets/img/post/11.webp);
   height: 220px;
   background-repeat: no-repeat;
 }
@@ -1392,7 +1392,7 @@
 }
 
 .container-koten-fashion .image-konten-fashion .image-card-fashion-d {
-  background-image: url(/assets/img/post/12.png);
+  background-image: url(/assets/img/post/12.webp);
   height: 220px;
   background-repeat: no-repeat;
 }
@@ -1411,7 +1411,7 @@
 }
 
 .container-koten-fashion .image-konten-fashion .image-card-fashion-e {
-  background-image: url(/assets/img/post/13.png);
+  background-image: url(/assets/img/post/13.webp);
   height: 220px;
   background-repeat: no-repeat;
 }
@@ -1663,7 +1663,7 @@
 
 .contain-card-trending-news .card-image {
   position: relative;
-  background-image: url("/assets/img/post/15.png");
+  background-image: url("/assets/img/post/15.webp");
   background-repeat: no-repeat;
   height: 250px;
 }
@@ -1722,7 +1722,7 @@
 
 .contain-card-trending-news-b .card-image {
   position: relative;
-  background-image: url("/assets/img/post/16.png");
+  background-image: url("/assets/img/post/16.webp");
   height: 250px;
   background-repeat: no-repeat;
 }
@@ -1781,7 +1781,7 @@
 
 .contain-card-trending-news-c .card-image {
   position: relative;
-  background-image: url("/assets/img/post/17.png");
+  background-image: url("/assets/img/post/17.webp");
   height: 250px;
   background-repeat: no-repeat;
 }
@@ -1841,7 +1841,7 @@
 
 .contain-card-trending-news-d .card-image {
   position: relative;
-  background-image: url("/assets/img/post/18.png");
+  background-image: url("/assets/img/post/18.webp");
   height: 250px;
   background-repeat: no-repeat;
 }
@@ -1900,7 +1900,7 @@
 
 .contain-card-trending-news-e .card-image {
   position: relative;
-  background-image: url("/assets/img/post/19.png");
+  background-image: url("/assets/img/post/19.webp");
   height: 250px;
   background-repeat: no-repeat;
 }
@@ -1959,7 +1959,7 @@
 
 .contain-card-trending-news-f .card-image {
   position: relative;
-  background-image: url("/assets/img/post/20.png");
+  background-image: url("/assets/img/post/20.webp");
   height: 250px;
   background-repeat: no-repeat;
 }
@@ -2019,7 +2019,7 @@
 
 .contain-card-trending-news-g .card-image {
   position: relative;
-  background-image: url("/assets/img/post/21.png");
+  background-image: url("/assets/img/post/21.webp");
   height: 250px;
   background-repeat: no-repeat;
 }
@@ -2077,7 +2077,7 @@
 
 .contain-card-trending-news-h .card-image {
   position: relative;
-  background-image: url("/assets/img/post/22.png");
+  background-image: url("/assets/img/post/22.webp");
   height: 250px;
   background-repeat: no-repeat;
 }
@@ -2184,7 +2184,7 @@
 }
 
 .contain-video-banner .card-trending-video .bannerr-video {
-  background-image: url("/assets/img/post/23.png");
+  background-image: url("/assets/img/post/23.webp");
   width: 100%;
   height: 160px;
   background-size: cover;
@@ -2237,7 +2237,7 @@
 
 .card-play-video .video-a .video-konten {
   position: relative;
-  background-image: url(/assets/img/post/list/9.png);
+  background-image: url(/assets/img/post/list/9.webp);
   background-size: cover;
   width: 140px;
   height: 80px;
@@ -2246,7 +2246,7 @@
 
 .card-play-video .video-a .video-konten-a {
   position: relative;
-  background-image: url(/assets/img/post/list/10.png);
+  background-image: url(/assets/img/post/list/10.webp);
   background-size: cover;
   width: 140px;
   height: 80px;
@@ -2255,7 +2255,7 @@
 
 .card-play-video .video-a .video-konten-b {
   position: relative;
-  background-image: url(/assets/img/post/list/11.png);
+  background-image: url(/assets/img/post/list/11.webp);
   background-size: cover;
   width: 140px;
   height: 80px;
@@ -2264,7 +2264,7 @@
 
 .card-play-video .video-a .video-konten-c {
   position: relative;
-  background-image: url(/assets/img/post/list/12.png);
+  background-image: url(/assets/img/post/list/12.webp);
   background-size: cover;
   width: 140px;
   height: 80px;
@@ -2418,7 +2418,7 @@
 }
 
 .contain-automobile-banner .card-trending-video .bannerr-video {
-  background-image: url("/assets/img/video/1.png");
+  background-image: url("/assets/img/video/1.webp");
   width: 100%;
   height: 160px;
   background-size: cover;
@@ -2741,7 +2741,7 @@
 }
 
 .contain-card-trending .image-a {
-  background-image: url("/assets/img/post/19.png");
+  background-image: url("/assets/img/post/19.webp");
   height: 200px;
   width: 100%;
   background-repeat: no-repeat;
@@ -2763,7 +2763,7 @@
 }
 
 .contain-card-trending .image-b {
-  background-image: url("/assets/img/post/20.png");
+  background-image: url("/assets/img/post/20.webp");
   height: 200px;
   width: 100%;
   background-repeat: no-repeat;
@@ -2785,7 +2785,7 @@
 }
 
 .contain-card-trending .image-c {
-  background-image: url("/assets/img/post/21.png");
+  background-image: url("/assets/img/post/21.webp");
   height: 200px;
   width: 100%;
   background-repeat: no-repeat;
@@ -2807,7 +2807,7 @@
 }
 
 .contain-card-trending .image-d {
-  background-image: url("/assets/img/post/22.png");
+  background-image: url("/assets/img/post/22.webp");
   height: 200px;
   width: 100%;
   background-repeat: no-repeat;
